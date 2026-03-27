@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioGuard Pest Control Nairobi | Licensed & Professional</title>
+  <meta name="description" content="Nairobi's trusted pest control company. Termites, cockroaches, rodents, bedbugs & more. Licensed, child-safe treatments. Same-day response available.">
+  <meta name="keywords" content="pest control Nairobi, fumigation Kenya, termite treatment, bedbug removal, rodent control Nairobi">
+
+  <!-- Fonts: Bebas Neue (display) + Nunito (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo">
+        <div class="logo-emblem">
+          <i class="fas fa-shield-halved"></i>
+        </div>
+        <div class="logo-words">
+          <span class="logo-name">BioGuard</span>
+          <span class="logo-tagline">PEST CONTROL · NAIROBI</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#pests">Pests We Treat</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Get a Quote</a>
+      </nav>
+
+      <div class="header-ctas">
+        <a href="tel:+254700000000" class="hdr-call">
+          <i class="fas fa-phone-volume"></i> Emergency Line
+        </a>
+        <a href="#contact" class="hdr-quote">Free Quote</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== MOBILE NAV ====== -->
+  <div class="mob-overlay" id="mobOverlay"></div>
+  <nav class="mob-nav" id="mobNav">
+    <button class="mob-close" id="mobClose"><i class="fas fa-times"></i></button>
+    <div class="mob-brand">
+      <div class="logo-emblem sm"><i class="fas fa-shield-halved"></i></div>
+      <span class="logo-name sm">BioGuard</span>
+    </div>
+    <ul>
+      <li><a href="#pests"        class="m-link">Pests We Treat</a></li>
+      <li><a href="#services"     class="m-link">Services</a></li>
+      <li><a href="#why-us"       class="m-link">Why Us</a></li>
+      <li><a href="#testimonials" class="m-link">Reviews</a></li>
+      <li><a href="#contact"      class="m-link">Get a Quote</a></li>
+    </ul>
+    <div class="mob-actions">
+      <a href="tel:+254700000000" class="mob-btn call"><i class="fas fa-phone-volume"></i> Call Now</a>
+      <a href="https://wa.me/254700000000" class="mob-btn wa" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <!-- Hex grid texture overlay -->
+      <div class="hex-overlay" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-alert">
+        <i class="fas fa-circle-exclamation"></i>
+        <span>SAME-DAY RESPONSE AVAILABLE</span>
+      </div>
+      <h1>
+        <span class="h1-line">ELIMINATE</span>
+        <span class="h1-line accent">EVERY PEST.</span>
+        <span class="h1-line thin">PROTECT YOUR HOME.</span>
+      </h1>
+      <p class="hero-desc">Nairobi's most trusted pest control specialists. Licensed, child-safe treatments that work — guaranteed. Serving homes and businesses since 2014.</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-shield-halved"></i> Get Free Inspection
+        </a>
+        <a href="tel:+254700000000" class="btn-emergency">
+          <i class="fas fa-phone-volume"></i> +254 700 000 000
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="trust-item">
+          <i class="fas fa-certificate"></i>
+          <span>NEMA Licensed</span>
+        </div>
+        <div class="trust-sep">·</div>
+        <div class="trust-item">
+          <i class="fas fa-leaf"></i>
+          <span>Eco-Safe Products</span>
+        </div>
+        <div class="trust-sep">·</div>
+        <div class="trust-item">
+          <i class="fas fa-rotate-left"></i>
+          <span>Free Re-treatment</span>
+        </div>
+        <div class="trust-sep">·</div>
+        <div class="trust-item">
+          <i class="fas fa-clock"></i>
+          <span>24/7 Support</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating urgency card -->
+    <div class="hero-urgency">
+      <div class="urgency-pulse"></div>
+      <div class="urgency-content">
+        <strong>EMERGENCY CALL-OUT</strong>
+        <span>Available Today</span>
+        <a href="tel:+254700000000">Call Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PEST GRID ====== -->
+  <section class="section pests-section" id="pests">
+    <div class="container">
+      <div class="section-head">
+        <span class="chip">What We Eliminate</span>
+        <h2>WE TREAT<br><em>EVERY PEST</em></h2>
+        <p>From common household nuisances to serious structural threats — our certified technicians are trained on every species found in Nairobi and across Kenya.</p>
+      </div>
+
+      <div class="pest-grid">
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/cockroach_1fab3.png" alt="Cockroach" loading="lazy">
+          </div>
+          <h3>Cockroaches</h3>
+          <p>Gel baiting, insect growth regulators & void treatment for total colony elimination.</p>
+          <div class="pest-threat high">HIGH RISK</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/ant_1f41c.png" alt="Termite" loading="lazy">
+          </div>
+          <h3>Termites</h3>
+          <p>Soil treatment, wood injection & bait systems — the most destructive pest in Kenya.</p>
+          <div class="pest-threat critical">CRITICAL</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/mouse_1f401.png" alt="Rodents" loading="lazy">
+          </div>
+          <h3>Rats & Rodents</h3>
+          <p>Tamper-proof bait stations, trapping & proofing to keep them out permanently.</p>
+          <div class="pest-threat high">HIGH RISK</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/mosquito_1f99f.png" alt="Mosquito" loading="lazy">
+          </div>
+          <h3>Mosquitoes</h3>
+          <p>Residual spray, larviciding of breeding sites & misting systems for ongoing control.</p>
+          <div class="pest-threat medium">MEDIUM RISK</div>
+        </div>
+
+        <div class="pest-card pest-featured">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/bug_1f41b.png" alt="Bedbugs" loading="lazy">
+          </div>
+          <h3>Bedbugs</h3>
+          <p>Heat treatment + residual chemical application — 100% elimination guarantee.</p>
+          <div class="pest-threat critical">CRITICAL</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/honeybee_1f41d.png" alt="Bees" loading="lazy">
+          </div>
+          <h3>Bees & Wasps</h3>
+          <p>Safe nest removal and relocation by our protective-gear equipped technicians.</p>
+          <div class="pest-threat medium">MEDIUM RISK</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/scorpion_1f982.png" alt="Fleas & Ticks" loading="lazy">
+          </div>
+          <h3>Fleas & Ticks</h3>
+          <p>Pet-safe residual treatments for home and yard. Stops the biting cycle fast.</p>
+          <div class="pest-threat medium">MEDIUM RISK</div>
+        </div>
+
+        <div class="pest-card">
+          <div class="pest-icon">
+            <img src="https://em-content.zobj.net/source/google/387/snake_1f40d.png" alt="Snakes" loading="lazy">
+          </div>
+          <h3>Snakes & Lizards</h3>
+          <p>Humane capture, removal and perimeter proofing to prevent re-entry.</p>
+          <div class="pest-threat high">HIGH RISK</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES ====== -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-head centered">
+        <span class="chip light">Our Services</span>
+        <h2 class="light">COMPLETE PEST<br><em>MANAGEMENT SOLUTIONS</em></h2>
+        <p class="light-p">Residential, commercial or industrial — we have the expertise, equipment and products to handle every scale of infestation.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="svc-card">
+          <div class="svc-num">01</div>
+          <div class="svc-icon-wrap"><i class="fas fa-house"></i></div>
+          <h3>Residential Pest Control</h3>
+          <p>Comprehensive treatment of your home — interior, exterior, roof void and garden. Safe for children and pets when dry.</p>
+          <ul class="svc-list">
+            <li>One-off treatment</li>
+            <li>Monthly maintenance plans</li>
+            <li>Pre-tenancy treatment</li>
+          </ul>
+          <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card svc-dark">
+          <div class="svc-num">02</div>
+          <div class="svc-icon-wrap"><i class="fas fa-building"></i></div>
+          <h3>Commercial & Industrial</h3>
+          <p>HACCP-compliant pest management for restaurants, hotels, hospitals, warehouses and office blocks across Nairobi.</p>
+          <ul class="svc-list">
+            <li>Compliance documentation</li>
+            <li>Regular scheduled visits</li>
+            <li>Emergency call-outs</li>
+          </ul>
+          <a href="#contact" class="svc-link light">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-num">03</div>
+          <div class="svc-icon-wrap"><i class="fas fa-bug-slash"></i></div>
+          <h3>Fumigation Services</h3>
+          <p>Whole-space gas fumigation for stored-product pests, grain weevils, and severe infestations in warehouses and containers.</p>
+          <ul class="svc-list">
+            <li>Phosphine fumigation</li>
+            <li>Container treatment</li>
+            <li>Post-fumigation certificates</li>
+          </ul>
+          <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-num">04</div>
+          <div class="svc-icon-wrap"><i class="fas fa-seedling"></i></div>
+          <h3>Garden & Lawn Treatment</h3>
+          <p>Army worms, white grubs, aphids, ants and cutworm control to protect your landscaping investment.</p>
+          <ul class="svc-list">
+            <li>Soil drenching</li>
+            <li>Foliar spraying</li>
+            <li>Organic options available</li>
+          </ul>
+          <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-num">05</div>
+          <div class="svc-icon-wrap"><i class="fas fa-droplet"></i></div>
+          <h3>Termite Management</h3>
+          <p>Pre-construction soil treatment and post-construction wood treatment using Termidor and other proven termiticides.</p>
+          <ul class="svc-list">
+            <li>10-year warranty available</li>
+            <li>Builder's certificates</li>
+            <li>Annual monitoring</li>
+          </ul>
+          <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-num">06</div>
+          <div class="svc-icon-wrap"><i class="fas fa-magnifying-glass"></i></div>
+          <h3>Pest Inspection & Survey</h3>
+          <p>Thorough property inspection with written report — essential for property buyers, landlords and estate agents.</p>
+          <ul class="svc-list">
+            <li>Written inspection report</li>
+            <li>Digital documentation</li>
+            <li>Same-day bookings</li>
+          </ul>
+          <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY US ====== -->
+  <section class="section why-section" id="why-us">
+    <div class="container">
+      <div class="why-grid">
+
+        <div class="why-left">
+          <span class="chip">Why Choose BioGuard</span>
+          <h2>NAIROBI'S<br><em>MOST TRUSTED</em><br>PEST EXPERTS</h2>
+          <p>We've protected over 8,000 homes and businesses since 2014. Our technicians are NEMA-licensed, continuously trained, and committed to getting it right the first time.</p>
+
+          <div class="why-stats">
+            <div class="wstat">
+              <span class="wstat-n" data-target="8000">0</span>
+              <span class="wstat-l">Properties Treated</span>
+            </div>
+            <div class="wstat">
+              <span class="wstat-n" data-target="10">0</span>
+              <span class="wstat-l">Years Experience</span>
+            </div>
+            <div class="wstat">
+              <span class="wstat-n" data-target="97">0</span>
+              <span class="wstat-l">% Success Rate</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-primary">Get Free Inspection</a>
+        </div>
+
+        <div class="why-right">
+          <div class="why-features">
+
+            <div class="wf-item">
+              <div class="wf-icon"><i class="fas fa-certificate"></i></div>
+              <div>
+                <strong>NEMA Licensed & Insured</strong>
+                <p>Fully licensed by Kenya's National Environment Management Authority. All technicians carry insurance and certification.</p>
+              </div>
+            </div>
+
+            <div class="wf-item">
+              <div class="wf-icon"><i class="fas fa-leaf"></i></div>
+              <div>
+                <strong>Child & Pet Safe Treatments</strong>
+                <p>WHO-approved, low-toxicity formulations. Products are safe once dry — no need to vacate for days.</p>
+              </div>
+            </div>
+
+            <div class="wf-item">
+              <div class="wf-icon"><i class="fas fa-rotate-left"></i></div>
+              <div>
+                <strong>Free Re-treatment Guarantee</strong>
+                <p>If pests return within the guarantee period, we come back and re-treat at no extra cost. No questions asked.</p>
+              </div>
+            </div>
+
+            <div class="wf-item">
+              <div class="wf-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Same-Day Emergency Response</strong>
+                <p>Pest emergencies don't wait. Call before noon and our team will be on-site the same day.</p>
+              </div>
+            </div>
+
+            <div class="wf-item">
+              <div class="wf-icon"><i class="fas fa-file-contract"></i></div>
+              <div>
+                <strong>Full Documentation Provided</strong>
+                <p>Service reports, product data sheets and compliance certificates issued for every treatment. HACCP-ready.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head centered">
+        <span class="chip">Verified Reviews</span>
+        <h2>TRUSTED BY<br><em>NAIROBI FAMILIES</em></h2>
+      </div>
+
+      <div class="testi-grid">
+
+        <div class="testi-card">
+          <div class="testi-top">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <span class="testi-verified"><i class="fas fa-circle-check"></i> Verified</span>
+          </div>
+          <p>"BioGuard eliminated a severe termite infestation in my house in Karen. They did a thorough inspection, explained everything clearly and the treatment worked perfectly. No termites 18 months later."</p>
+          <div class="testi-author">
+            <div class="testi-av">CM</div>
+            <div>
+              <strong>Catherine M.</strong>
+              <span>Homeowner · Karen</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-green">
+          <div class="testi-top">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <span class="testi-verified light"><i class="fas fa-circle-check"></i> Verified</span>
+          </div>
+          <p>"We've used BioGuard for our restaurant in Westlands for 3 years. HACCP compliant, always on schedule, and the team is discreet and professional. Our kitchen has never had a pest issue."</p>
+          <div class="testi-author">
+            <div class="testi-av green">RO</div>
+            <div>
+              <strong>Robert O.</strong>
+              <span>Restaurant Owner · Westlands</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-top">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <span class="testi-verified"><i class="fas fa-circle-check"></i> Verified</span>
+          </div>
+          <p>"Bedbugs are the worst. BioGuard came same-day, explained the heat + chemical process, and after two treatments they were completely gone. Would absolutely recommend to anyone in Nairobi."</p>
+          <div class="testi-author">
+            <div class="testi-av">AN</div>
+            <div>
+              <strong>Amina N.</strong>
+              <span>Tenant · Kilimani</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT / QUOTE FORM ====== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-left">
+          <span class="chip light">Free Inspection</span>
+          <h2 class="light">GET YOUR FREE<br><em>PEST ASSESSMENT</em></h2>
+          <p class="light-p">Fill in the form and a licensed technician will contact you within 30 minutes to arrange your free inspection and quote. No obligation.</p>
+
+          <div class="emergency-box">
+            <div class="em-icon"><i class="fas fa-triangle-exclamation"></i></div>
+            <div>
+              <strong>Pest Emergency?</strong>
+              <p>Call our 24/7 hotline for same-day response:</p>
+              <a href="tel:+254700000000" class="em-number">+254 700 000 000</a>
+            </div>
+          </div>
+
+          <div class="contact-details">
+            <div class="cd-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Office</strong>
+                <span>Parklands, Nairobi<br>(Visits by appointment)</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sat: 6AM – 9PM<br>Sun & Public Holidays: Emergency only</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/254700000000" target="_blank">+254 700 000 000</a>
+              </div>
+            </div>
+            <div class="cd-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>info@bioguard.co.ke</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service area tags -->
+          <div class="area-tags">
+            <span class="area-label">Service Areas:</span>
+            <span class="tag">Westlands</span>
+            <span class="tag">Karen</span>
+            <span class="tag">Kilimani</span>
+            <span class="tag">Lavington</span>
+            <span class="tag">Parklands</span>
+            <span class="tag">Kasarani</span>
+            <span class="tag">Ruiru</span>
+            <span class="tag">+More</span>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form id="quoteForm" class="quote-form">
+            <div class="form-title">
+              <i class="fas fa-shield-halved"></i>
+              <h3>REQUEST FREE QUOTE</h3>
+            </div>
+
+            <div class="field-row">
+              <div class="fg">
+                <label for="name">Full Name <span>*</span></label>
+                <input type="text" id="name" placeholder="e.g. John Kamau" required>
+              </div>
+              <div class="fg">
+                <label for="phone">Phone <span>*</span></label>
+                <input type="tel" id="phone" placeholder="e.g. 0712 345 678" required>
+              </div>
+            </div>
+
+            <div class="fg">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="e.g. john@example.com">
+            </div>
+
+            <div class="field-row">
+              <div class="fg">
+                <label for="pest">Pest Type <span>*</span></label>
+                <select id="pest" required>
+                  <option value="">Select pest</option>
+                  <option>Cockroaches</option>
+                  <option>Termites</option>
+                  <option>Rats &amp; Rodents</option>
+                  <option>Bedbugs</option>
+                  <option>Mosquitoes</option>
+                  <option>Bees / Wasps</option>
+                  <option>Fleas &amp; Ticks</option>
+                  <option>Snakes / Lizards</option>
+                  <option>Multiple / Not Sure</option>
+                </select>
+              </div>
+              <div class="fg">
+                <label for="property">Property Type <span>*</span></label>
+                <select id="property" required>
+                  <option value="">Select type</option>
+                  <option>Apartment / Flat</option>
+                  <option>House / Bungalow</option>
+                  <option>Office / Commercial</option>
+                  <option>Restaurant / Hotel</option>
+                  <option>Warehouse</option>
+                  <option>School / Hospital</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="fg">
+              <label for="location">Your Location / Estate <span>*</span></label>
+              <input type="text" id="location" placeholder="e.g. Kilimani, Westlands, Karen…" required>
+            </div>
+
+            <div class="fg">
+              <label for="urgency">Urgency</label>
+              <select id="urgency">
+                <option value="flexible">Flexible — anytime this week</option>
+                <option value="soon">Soon — within 2–3 days</option>
+                <option value="urgent">Urgent — today or tomorrow</option>
+                <option value="emergency">EMERGENCY — same day needed</option>
+              </select>
+            </div>
+
+            <div class="fg">
+              <label for="notes">Additional Details</label>
+              <textarea id="notes" rows="3" placeholder="Describe the problem, infestation severity, or any special access requirements…"></textarea>
+            </div>
+
+            <button type="submit" id="submitBtn">
+              <i class="fas fa-shield-halved"></i> GET FREE QUOTE NOW
+            </button>
+            <div id="formStatus" class="form-status"></div>
+
+            <p class="form-note"><i class="fas fa-lock"></i> Your information is private and never shared. We'll respond within 30 minutes.</p>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          title="BioGuard Service Area — Nairobi"
+          src="https://maps.google.com/maps?q=Parklands%2C%20Nairobi%2C%20Kenya&t=&z=12&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <div class="logo-emblem sm"><i class="fas fa-shield-halved"></i></div>
+          <div class="logo-words">
+            <span class="logo-name">BioGuard</span>
+            <span class="logo-tagline">PEST CONTROL · NAIROBI</span>
+          </div>
+        </a>
+        <p>Nairobi's NEMA-licensed pest control specialists. Protecting homes and businesses since 2014 with safe, effective, guaranteed treatments.</p>
+        <div class="footer-badges">
+          <span class="fbadge"><i class="fas fa-certificate"></i> NEMA Licensed</span>
+          <span class="fbadge"><i class="fas fa-shield-halved"></i> Insured</span>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Residential Control</a></li>
+          <li><a href="#services">Commercial & Industrial</a></li>
+          <li><a href="#services">Fumigation</a></li>
+          <li><a href="#services">Termite Management</a></li>
+          <li><a href="#services">Pest Inspection</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Pests We Treat</h4>
+        <ul>
+          <li><a href="#pests">Cockroaches</a></li>
+          <li><a href="#pests">Termites</a></li>
+          <li><a href="#pests">Rats & Rodents</a></li>
+          <li><a href="#pests">Bedbugs</a></li>
+          <li><a href="#pests">Mosquitoes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Emergency Contacts</h4>
+        <p><i class="fas fa-phone-volume"></i> <a href="tel:+254700000000">+254 700 000 000</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254700000000" target="_blank">WhatsApp 24/7</a></p>
+        <p><i class="fas fa-envelope"></i> info@bioguard.co.ke</p>
+        <p><i class="fas fa-clock"></i> Mon–Sat 6AM–9PM</p>
+        <p class="emergency-note"><i class="fas fa-triangle-exclamation"></i> Emergency? Call anytime.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="yr"></span> BioGuard Pest Control Nairobi. All rights reserved. | NEMA Reg. No: XXXXXXX</p>
+      <p>Protecting Nairobi, one home at a time.</p>
+    </div>
+  </footer>
+
+  <!-- ====== FLOATING WHATSAPP ====== -->
+  <a href="https://wa.me/254700000000?text=Hi%2C%20I%20have%20a%20pest%20problem%20and%20need%20help%20urgently" class="wa-float" target="_blank" aria-label="WhatsApp Emergency">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tip">Pest Emergency?</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
